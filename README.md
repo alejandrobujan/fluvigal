@@ -1,12 +1,12 @@
 # fluvigal
 
+<img src="doc/img/0_logo.png" width="150" height="150"/>
+
 ## Descrición
 
-<img src="doc/img/0_logo.png" width="150" height="150" style="float: right; margin: 9px;"/>
-<p style=" text-align: justify;
-  text-justify: inter-word;"><b>fluvigal</b> (<i>fluvi</i> de <a href="https://academia.gal/dicionario/-/termo/fluvial">fluvial</a> e <i>gal</i> de <a href="https://gl.wikipedia.org/wiki/Galicia">Galicia</a>) é unha implementación tanto móbil como web dunha aplicación que facilita e amosa ao público, os datos do estado actual dos ríos galegos (o nivel e caudal da auga), así como o estado actual das estacións na rede de aforos que actualmente están en servizo en Galicia (actualizado cada 10 minutos).</p>
-<p style=" text-align: justify;
-  text-justify: inter-word;">Unha estación de aforo, é un punto situado no cauce dun río, onde se controla o nivel e caudal que circula por éste. A aplicación encargarase de recopilar estes datos, fundamentais para o correcto seguimento dos episodios de seca e enchente, e de facilitalos a usuarios de todo tipo, xa sexan particulares, empresas ou organizacións non gubernamentais, como información de especial interese ante a situación de cambio climático e quecemento global que sofre o noso planeta.</p>
+__fluvigal__ (_fluvi_ de [fluvial](https://academia.gal/dicionario/-/termo/fluvial) e _gal_ de [Galicia](https://gl.wikipedia.org/wiki/Galicia)) é unha implementación tanto móbil como web dunha aplicación que facilita e amosa ao público, os datos do estado actual dos ríos galegos (o nivel e caudal da auga), así como o estado actual das estacións na rede de aforos que actualmente están en servizo en Galicia (actualizado cada 10 minutos).
+
+Unha estación de aforo, é un punto situado no cauce dun río, onde se controla o nivel e caudal que circula por éste. A aplicación encargarase de recopilar estes datos, fundamentais para o correcto seguimento dos episodios de seca e enchente, e de facilitalos a usuarios de todo tipo, xa sexan particulares, empresas ou organizacións non gubernamentais, como información de especial interese ante a situación de cambio climático e quecemento global que sofre o noso planeta.
 
 ## Instalación / Posta en marcha
 

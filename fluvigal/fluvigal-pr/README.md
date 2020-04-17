@@ -8,7 +8,7 @@ Para instalala haberá que clonala e executar dende o servidor o script bash [fl
 
 ## Documentación
 
-<iframe src="fluvigal-pr/doc/fluvigal-pr.html" width="100%" height="500px"></iframe>
+[![Pydoc](../../doc/img/pydoc.png)](fluvigal-pr/doc/fluvigal-pr.html)
 
 ## Diagrama de clases - UML
 

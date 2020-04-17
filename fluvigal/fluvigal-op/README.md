@@ -10,7 +10,7 @@ Localizacion do .jar:
 
 ## Documentación
 
-<iframe src="fluvigal-op/target/site/apidocs/index.html" width="100%" height="500px"></iframe>
+[![Javadoc](../../doc/img/javadoc.png)](fluvigal-op/target/site/apidocs/index.html)
 
 ## Diagrama de clases - UML
 
