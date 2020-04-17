@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.fluvigal.model","l":"Estacion"},{"p":"com.fluvigal.util","l":"Formatter"},{"p":"com.fluvigal.connectivity","l":"MariaDBConnector"},{"p":"com.fluvigal.model","l":"Medicion"},{"p":"com.fluvigal.model","l":"Provincia"},{"p":"com.fluvigal.model","l":"Rio"},{"p":"com.fluvigal.model","l":"TipoMedicion"}]

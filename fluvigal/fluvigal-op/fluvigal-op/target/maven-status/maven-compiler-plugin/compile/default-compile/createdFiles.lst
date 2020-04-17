@@ -1,0 +1,7 @@
+com/fluvigal/model/Medicion.class
+com/fluvigal/model/Estacion.class
+com/fluvigal/model/Provincia.class
+com/fluvigal/util/Formatter.class
+com/fluvigal/connectivity/MariaDBConnector.class
+com/fluvigal/model/TipoMedicion.class
+com/fluvigal/model/Rio.class

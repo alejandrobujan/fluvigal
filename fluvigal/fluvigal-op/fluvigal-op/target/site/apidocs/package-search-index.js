@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.fluvigal.connectivity"},{"l":"com.fluvigal.model"},{"l":"com.fluvigal.util"}]
