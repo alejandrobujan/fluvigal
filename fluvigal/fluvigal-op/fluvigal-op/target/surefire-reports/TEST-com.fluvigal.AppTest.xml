@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.fluvigal.AppTest" time="0.041" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.fluvigal.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/test-classes:/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/classes:/home/alexb/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/alexb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/alexb/.m2/repository/org/mariadb/jdbc/mariadb-java-client/1.8.0/mariadb-java-client-1.8.0.jar:"/>
+    <property name="java.class.path" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/test-classes:/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/classes:/home/alexb/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/alexb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/alexb/.m2/repository/org/mariadb/jdbc/mariadb-java-client/1.8.0/mariadb-java-client-1.8.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/surefire/surefirebooter13345253270291282072.jar /media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/surefire 2020-04-16T22-17-51_027-jvmRun1 surefire15706895246807457847tmp surefire_015250221954878287264tmp"/>
+    <property name="sun.java.command" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/surefire/surefirebooter188323749742494805.jar /media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/surefire 2020-04-22T17-56-48_101-jvmRun1 surefire10421622748074243113tmp surefire_011335461945532685482tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/test-classes:/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/classes:/home/alexb/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/alexb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/alexb/.m2/repository/org/mariadb/jdbc/mariadb-java-client/1.8.0/mariadb-java-client-1.8.0.jar:"/>
+    <property name="surefire.test.class.path" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/test-classes:/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/classes:/home/alexb/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/alexb/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/alexb/.m2/repository/org/mariadb/jdbc/mariadb-java-client/1.8.0/mariadb-java-client-1.8.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/alexb"/>
     <property name="user.language" value="es"/>
@@ -26,13 +26,13 @@
     <property name="java.version.date" value="2020-01-14"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op"/>
+    <property name="basedir" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op/target/surefire/surefirebooter13345253270291282072.jar"/>
+    <property name="surefire.real.class.path" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op/target/surefire/surefirebooter188323749742494805.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu119.10.1"/>
     <property name="user.name" value="alexb"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.6"/>
-    <property name="user.dir" value="/media/alexb/Expansion/Proxecto/fluvigal/fluvigal-op/fluvigal-op"/>
+    <property name="user.dir" value="/media/alexb/Expansion/Proxecto/a16alejandrobp/fluvigal/fluvigal-op/fluvigal-op"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.fluvigal.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.fluvigal.AppTest" time="0.002"/>
 </testsuite>

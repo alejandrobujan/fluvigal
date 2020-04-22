@@ -25,7 +25,7 @@ public class MariaDBConnector {
     */
     public static void openConnection() throws Exception{
         Class.forName("org.mariadb.jdbc.Driver");
-        connection = DriverManager.getConnection("jdbc:mariadb://10.161.55.159/fluvigal_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","","" );
+        connection = DriverManager.getConnection("jdbc:mariadb://104.198.73.152/fluvigal_db","","" );
     }
     /**
     * Pecha a conexión coa base de datos <b>fluvigal_db</b>.
