@@ -12,7 +12,7 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
     $ apt install openssh-server mariadb-server
 
     # Traemos script SQL fluvigal_db.sql (dende anfitrión, solicitarase a contrasinal)
-    $ scp fluvigal_db.sql root@104.198.73.152:/tmp/
+    $ scp fluvigal_db.sql alejandro_bujan_pampin@104.198.73.152:/tmp/
 
     # Comentamos liña 'bind-address' para permitir accesos remotos á base de datos
     $ nano /etc/mysql/mariadb.conf.d/50-server.cnf
@@ -28,7 +28,7 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
 ## Instalación de fluvigal-pr + Python + cron
 
     # Traemos aplicación (dende anfitrión, solicitarase a contrasinal)
-    $ scp -rp fluvigal-pr root@104.198.73.152:/tmp/
+    $ scp -rp fluvigal-pr alejandro_bujan_pampin@104.198.73.152:/tmp/
 
     # Damos permisos de execución (se non os ten) ao script de instalación
     $ chmod +x /tmp/fluvigal-pr/fluvigal-pr-ssh.sh
