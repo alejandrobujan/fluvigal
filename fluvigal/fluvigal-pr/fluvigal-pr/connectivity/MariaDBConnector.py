@@ -10,7 +10,7 @@ def open_connection():
     """Abre unha conexión coa base de datos fluvigal_db.
     """
     global _conexion
-    _conexion = pymysql.connect(host="10.161.55.159", 
+    _conexion = pymysql.connect(host="127.0.0.1", 
                            user="usuario", 
                            passwd="abc123.", 
                            database="fluvigal_db")
