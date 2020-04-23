@@ -16,7 +16,7 @@ Para obter o repositorio en local, é preciso empregar a ferramenta de terminal 
 
 ### Produto final
 
-O produto final, como foi indicado anteriormente, consta dunha implementación web e outra móbil (Android), polo cal, lóxicamente serán accesibles de dúas formas diferentes.
+O produto final, como foi indicado anteriormente, consta dunha implementación web e outra móbil `Android`, polo cal, lóxicamente serán accesibles de dúas formas diferentes.
 
 #### Aplicación web (fluvigal-web)
 
@@ -28,13 +28,15 @@ O código fonte está accesible dende [fluvigal/fluvigal-web](fluvigal/fluvigal-
 
 #### Aplicación móbil (fluvigal-mob)
 
-A versión da aplicación para dispositivos móbiles é compatible con terminais Android coa versión X.Y (por determinar) como mínimo. Para probala dende un computador será preciso un emulador de Android coa mesma versión mínima que a indicada anteriormente. 
+A versión da aplicación para dispositivos móbiles é compatible con terminais `Android` coa versión X.Y (por determinar) como mínimo. Para probala dende un computador será preciso un emulador de `Android` coa mesma versión mínima que a indicada anteriormente. 
 
 O ficheiro APK está atópase ubicado [aquí](). O código fonte está accesible dende [fluvigal/fluvigal-mob](fluvigal/fluvigal-mob).
 
 ### Contorno e infraestrutura (Avanzado)
 
-A posta en marcha da infraestrutura baséase na configuración de __ds-fluvigal__, a instancia de Debian 10 que actúa como servidor encargado de procesar e almacenar os datos da rede de aforos. As instruccións da configuración atópanse [aquí](fluvigal/ds-fluvigal). A instancia aloxa tamén os seguintes servizos:
+Para o desenvolvemento de ambas aplicacións, empregouse a API __fluvigal-op__, encargada das interaccións coa base de datos, para empregala en novos proxectos haberá que importar a librería [JAR](fluvigal/fluvigal-op).
+
+A posta en marcha da infraestrutura baséase na configuración de __ds-fluvigal__, a instancia `GCloud` de `Debian 10` que actúa como servidor encargado de procesar e almacenar os datos da rede de aforos. As instruccións da configuración atópanse [aquí](fluvigal/ds-fluvigal). A instancia aloxa tamén os seguintes servizos:
 
 #### Base de datos MariaDB (fluvigal_db)
 
@@ -46,12 +48,34 @@ Engargada das peticións externas, do seu procesamento e da actualización conti
 
 ## Uso
 
-> *TODO*: Es este apartado describe brevemente cómo se usará el software que proyectas. Si tiene una interfaz de terminal, describe aquí su sintaxis. Si tiene una interfaz gráfica de usuario, describe aquí **sólo el uso** (a modo de sumario) **de los aspectos más relevantes de su funcionamiento** (máxima brevedad, como si fuese un anuncio reclamo o comercial).
-> Si tu proyecto es documental, realiza una especificación de cómo planteas estas interfaces, con ejemplos incluso o esquemas de diseño. En otras palabras, realiza este apartado independientemente que no haya implementación.
+Tanto as interfaces web como móbil son moi intuitivas e permiten unha experiencia de usuario sen complicacións, permitindo:
+
++ Listar os ríos pertencentes á rede de aforos galega.
++ Listar as estacións pertencentes á rede de aforos galega, podendo filtrar por río ou por provincia.
++ Consultar o estado actual do nivel dos ríos galegos.
++ Consultar o estado actual do caudal dos ríos galegos.
++ Consultar a localización exacta das estacións que realizan estas medicións mediante __Google Maps__.
++ Actualización automática dos datos cada 10 minutos.
 
 ## Sobre o autor
 
-> *TODO*: Realiza una breve descripción de quien eres (perfil profesional), tus puntos fuertes, o tecnologías que más dominas... y porqué te has decantado por este proyecto. **No más de 200 palabras**. Indica la forma fiable de contactar contigo en el presente y en el futuro.
+Chámome __Alejandro Buján Pampín__, e en términos xerais son un apaixonado da informática. Dende os comezos da miña vida (xeración do 2000) estiven en contacto coas novas tecnoloxías e isto derivou nunha relación amor-odio que rematou nomalizándose ata volverse parte de min.
+
+Actualmente estou a punto de titular como técnico superior en __Desenvolvemento de Aplicacións Multiplataforma__ e son técnico en __Sistemas Microinformáticos e Redes__. Tamén acadei recoñocementos como as Medallas de Bronce (Nacional) e Ouro (Autonómico) nas olimpiadas de Formación Profesional 2018-19 na disciplina de __Administración de Sistemas en Rede__ e fixen prácticas en cidades estranxeiras como Lisboa ou Turín. Unha traxectoria que me gustaría continuar con estudos universitarios de grao en __Enxeñaría Informática__.
+
+Estou familiarizado con tecnoloxías como:  
++ Administración de SO: GNU/Linux e Windows (Desktop e Server)
++ Cloud: AWS, Azure, GCloud
++ Redes, firewalls, seguridade informática.
++ Programación: Java, Python, C#, Visual Basic .NET
++ SXBD: MySQL/MariaDB, Microsoft SQL Server, PostgreSQL, MongoDB, Oracle.
+
+Decanteime por __fluvigal__ pola ausencia de alternativas accesibles para a consulta dunha información, na miña opinión, de primeiro nivel, así como do reto que supoñía para min, o feito de desenvolver unha aplicación web, e o aprendizaxe no uso de tecnoloxías como GCloud ou ReactiveX.
+
+__e-mail__: <alejandro.bujan.pampin@gmail.com>  
+__móbil__: [+34 617 238 186](tel:+34617238186)  
+__LinkedIn__: <https://www.linkedin.com/in/alejandro-bujan-pampin/>
+
 
 ## Licenza
 
@@ -67,11 +91,33 @@ Engargada das peticións externas, do seu procesamento e da actualización conti
 4. [Deseño](doc/4_deseño.md) (Incompleto)
 5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
 6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
+7. [Software](fluvigal/)  
+    7.1 [ds-fluvigal](fluvigal/ds-fluvigal/)  
+    7.2 [fluvigal-pr](fluvigal/fluvigal-pr/) (Documentación [aquí](fluvigal/fluvigal-op/fluvigal-op/target/site/apidocs/index.html))  
+    7.3 [fluvigal-op](fluvigal/fluvigal-op/) (Documentación [aquí](fluvigal/fluvigal-pr/fluvigal-pr/doc/fluvigal-pr.html))  
+    7.4 [fluvigal-web](fluvigal/fluvigal-web/) (Por implementar)  
+    7.5 [fluvigal-mob](fluvigal/fluvigal-mob/) (Por implementar)  
+8. [Mecanismo de versionado](doc/versionado.md)
+9. [Changelog](CHANGELOG.md)
 
 ## Guía de contribución
 
-> *TODO*: Tratándose de un proyecto de software libre, es muy importante que expongas cómo se puede contribuir con tu proyecto. Algunos ejemplos de esto son realizar nuevas funcionalidades, corrección y/u optimización del código, realización de tests automatizados, nuevas interfaces de integración, desarrollo de plugins, etc. etc. Sé lo más conciso que puedas.
+Este proxecto admite contribucións tanto de usuarios cotiás como de programadores, agradécese calquera tipo de colaboración que axude a __fluvigal__ a crecer. As pautas a seguir están redactadas no ficheiro [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Links
 
-> *TODO*: Enlaces externos y descipciones de estos enlaces que creas conveniente indicar aquí. Generalmente ya van a estar integrados con tu documentación, pero si requieres realizar un listado de ellos, este es el lugar.
+| Descrición                                        | URL
+|:-                                             |:-
+|
+Repositorio do proxecto fluvigal    | https://gitlab.iessanclemente.net/damo/a16alejandrobp
+| Datos abertos da Xunta de Galicia                                         | https://abertos.xunta.gal/
+| Debian                                    | https://www.debian.org/
+| GCloud                                        | https://cloud.google.com/
+| MariaDB                                         | https://mariadb.org/
+| Java                         | https://www.java.com/es/
+| Python                                         | https://www.python.org/
+| Android Developers          | https://developer.android.com/
+| Apache Tomcat  | http://tomcat.apache.org/
+| Apache Maven    | http://maven.apache.org/
+| ReactiveX  | http://reactivex.io/
+
