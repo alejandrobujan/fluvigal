@@ -10,7 +10,7 @@
 
 ## Utilidade 
   
-  Preténdese facilitar datos verídicos e a tempo real (actualizado cada 10 minutos), que permitan ao usuario evaluar por un mesmo o estado dos ríos galegos, axudando a controlar tanto o déficit hídrico como os potenciais riscos de inundación, ante a maior ameaza medioambiental da humanidade, que é o cambio climático.
+  Preténdese facilitar datos verídicos e a tempo real (actualizado cada 10 minutos), que permitan ao usuario avaliar por un mesmo o estado dos ríos galegos, axudando a controlar tanto o déficit hídrico como os potenciais riscos de inundación, ante a maior ameaza medioambiental da humanidade, que é o cambio climático.
 
 ## Competencia
   
