@@ -10,8 +10,39 @@ Unha estación de aforo, é un punto situado no cauce dun río, onde se controla
 
 ## Instalación / Posta en marcha
 
-> *TODO*: En este apartado describe con toda precisión y a poder ser con la mayor simplicidad/facilidad posible, cómo poner en marcha tu aplicación para probarla (en un ambiente local). Se valorará muy positivamente que este proceso sea lo más fácil posible, con una simple instrucción (p. e. un script de instalación).
-> Si tu proyecto es documental, realiza una especificación de cómo va a ser este proceso. En otras palabras, realiza este apartado independientemente que no haya implementación.
+Para obter o repositorio en local, é preciso empregar a ferramenta de terminal `git`:
+
+    git clone https://gitlab.iessanclemente.net/damo/a16alejandrobp.git
+
+### Produto final
+
+O produto final, como foi indicado anteriormente, consta dunha implementación web e outra móbil (Android), polo cal, lóxicamente serán accesibles de dúas formas diferentes.
+
+#### Aplicación web (fluvigal-web)
+
+Para acceder á webapp para probala, será tan sinxelo como seguir esta [ligazón](http://104.198.73.152). No caso de que o navegador non soporte hipervínculos, será preciso pegar a seguinte liña na barra de direccións:
+
+    http://104.198.73.152
+
+O código fonte está accesible dende [fluvigal/fluvigal-web](fluvigal/fluvigal-web).
+
+#### Aplicación móbil (fluvigal-mob)
+
+A versión da aplicación para dispositivos móbiles é compatible con terminais Android coa versión X.Y (por determinar) como mínimo. Para probala dende un computador será preciso un emulador de Android coa mesma versión mínima que a indicada anteriormente. 
+
+O ficheiro APK está atópase ubicado [aquí](). O código fonte está accesible dende [fluvigal/fluvigal-mob](fluvigal/fluvigal-mob).
+
+### Contorno e infraestrutura (Avanzado)
+
+A posta en marcha da infraestrutura baséase na configuración de __ds-fluvigal__, a instancia de Debian 10 que actúa como servidor encargado de procesar e almacenar os datos da rede de aforos. As instruccións da configuración atópanse [aquí](fluvigal/ds-fluvigal). A instancia aloxa tamén os seguintes servizos:
+
+#### Base de datos MariaDB (fluvigal_db)
+
+Será necesaria unha carga inicial de modelado e rexistros na base de datos, o script está ubicado [aquí](fluvigal/ds-fluvigal/fluvigal_db.sql). 
+
+#### Aplicación backend Python (fluvigal-pr)
+
+Engargada das peticións externas, do seu procesamento e da actualización continua da base de datos. O script de instalación atópase [aquí](fluvigal/fluvigal-pr/fluvigal-pr-setup.sh).
 
 ## Uso
 
@@ -30,15 +61,12 @@ Unha estación de aforo, é un punto situado no cauce dun río, onde se controla
 
 ## Índice
 
-> *TODO*: Simplemente indexa ordenadamente todo tu proyecto.
-
-1. [Idea](doc/1_idea.md)
-2. [Necesidades](doc/templates/2_necesidades.md)
-3. [Análise](doc/templates/3_analise.md)
-4. [Deseño](doc/4_deseño.md)
-5. [Planificación](doc/templates/5_planificacion.md)
-6. [Implantación](doc/templates/6_implantacion.md)
-
+1. [Idea](doc/1_idea.md) 
+2. [Necesidades](doc/templates/2_necesidades.md) (Por facer)
+3. [Análise](doc/templates/3_analise.md) (Por facer)
+4. [Deseño](doc/4_deseño.md) (Incompleto)
+5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
+6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
 
 ## Guía de contribución
 
