@@ -106,18 +106,17 @@ Este proxecto admite contribucións tanto de usuarios cotiás como de programado
 
 ## Links
 
-| Descrición                                        | URL
-|:-                                             |:-
-|
-Repositorio do proxecto fluvigal    | https://gitlab.iessanclemente.net/damo/a16alejandrobp
-| Datos abertos da Xunta de Galicia                                         | https://abertos.xunta.gal/
-| Debian                                    | https://www.debian.org/
-| GCloud                                        | https://cloud.google.com/
-| MariaDB                                         | https://mariadb.org/
-| Java                         | https://www.java.com/es/
-| Python                                         | https://www.python.org/
-| Android Developers          | https://developer.android.com/
-| Apache Tomcat  | http://tomcat.apache.org/
-| Apache Maven    | http://maven.apache.org/
-| ReactiveX  | http://reactivex.io/
+| Descrición                          | URL
+|:-                                   |:-
+| Repositorio do proxecto fluvigal    | https://gitlab.iessanclemente.net/damo/a16alejandrobp
+| Datos abertos da Xunta de Galicia   | https://abertos.xunta.gal/
+| Debian                              | https://www.debian.org/
+| GCloud                              | https://cloud.google.com/
+| MariaDB                             | https://mariadb.org/
+| Java                                | https://www.java.com/es/
+| Python                              | https://www.python.org/
+| Android Developers                  | https://developer.android.com/
+| Apache Tomcat                       | http://tomcat.apache.org/
+| Apache Maven                        | http://maven.apache.org/
+| ReactiveX                           | http://reactivex.io/
 
