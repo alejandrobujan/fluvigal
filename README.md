@@ -79,9 +79,9 @@ __LinkedIn__: <https://www.linkedin.com/in/alejandro-bujan-pampin/>
 
 ## Licenza
 
-> *TODO*: Es requisito INDISPENSABLE el licenciar explícitamente el proyecto software. Se recomienda licenciar con *GNU Free Documentation License Version 1.3*. Crear un fichero `LICENSE` en la raiz del repo, con tu fichero de licencia. Recuerda que si empleas una licencia de software libre estás autorizando la derivación de tu obra bajo la misma licencia que elijas, pudiendo dar continuidad, p. e. otro alumno, para continuar tu proyecto en otro curso.
-> Si tu proyecto es documental, recomendamos los términos de *GNU Free Documentation License Version 1.3*, crea igualmente el fichero `LICENSE`. Será especialmente valorado en este caso, la claridad de la especificación para que el proyecto pueda ser ejecutado partiendo de lo proyectado.
+Non podendo ser doutra forma, este proxecto é completamente **software libre**, nacido por e para a comunidade baixo as condicións da Licenza Xeral Pública GNU v3 da [Free Software Foundation](https://www.fsf.org/es) e mantendo sempre o recoñecemento á autoría e contribucións. 
 
+Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 
 ## Índice
 
@@ -119,4 +119,8 @@ Este proxecto admite contribucións tanto de usuarios cotiás como de programado
 | Apache Tomcat                       | http://tomcat.apache.org/
 | Apache Maven                        | http://maven.apache.org/
 | ReactiveX                           | http://reactivex.io/
+| Free Software Foundation            | https://www.fsf.org/es
 
+***
+
+Deseño da __base__ do logo atribuído a [Vecteezy](https://www.vecteezy.com/vector-art/595494-wave-water-logo-beach-vector).
