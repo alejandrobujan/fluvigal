@@ -88,7 +88,7 @@ __LinkedIn__: <https://www.linkedin.com/in/alejandro-bujan-pampin/>
 1. [Idea](doc/1_idea.md) 
 2. [Necesidades](doc/templates/2_necesidades.md) (Por facer)
 3. [Análise](doc/templates/3_analise.md) (Por facer)
-4. [Deseño](doc/4_deseño.md) (Incompleto)
+4. [Deseño](doc/4_deseno.md) (Incompleto)
 5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
 6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
 7. [Software](fluvigal/)  
