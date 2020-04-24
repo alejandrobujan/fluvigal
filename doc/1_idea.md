@@ -12,7 +12,7 @@
   
   Preténdese facilitar datos verídicos e a tempo real (actualizado cada 10 minutos), que permitan ao usuario avaliar por un mesmo o estado dos ríos galegos, axudando a controlar tanto o déficit hídrico como os potenciais riscos de inundación, ante a maior ameaza medioambiental da humanidade, que é o cambio climático.
 
-## Competencia
+## Alternativas
   
   En xeral, o contorno está baleiro e as alternativas son prácticamente nulas. No ámbito móbil non existen opcións a considerar que den resposta a esta necesidade, mentres que no ámbito web a alternativa atopada ofrece algúns datos mais con certas carencias e non da forma plantexada.
 
