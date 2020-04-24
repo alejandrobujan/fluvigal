@@ -38,4 +38,13 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
 
 > Nota: Localización de fluvigal-pr [aquí](../fluvigal-pr/).
 
-## Instalación Tomcat + app web (fluvigal-web) (aínda non implementado)
+## Instalación Tomcat + app web (fluvigal-web) (en proceso)
+
+    # Instalamos Apache Tomcat
+    $ apt install tomcat9
+
+    # Cambiamos o porto 8080 ao 80 en <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
+    $ nano /etc/tomcat9/server.xml
+
+    # Reiniciamos o servizo
+    $ systemctl restart tomcat9
