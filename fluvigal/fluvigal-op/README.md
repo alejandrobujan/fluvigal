@@ -10,7 +10,7 @@ Localizacion do .jar:
 
 ## Documentación
 
-[![Javadoc](../../doc/img/javadoc.png)](http://10.161.55.159/api/fluvigal-op/)
+[![Javadoc](../../doc/img/javadoc.png)](http://104.198.73.152/api/fluvigal-op/)
 
 ## Diagrama de clases - UML
 
