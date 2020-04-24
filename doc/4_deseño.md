@@ -38,6 +38,10 @@
 
 ![Diagrama UML](img/4_uml-fluvigal-pr.png)
 
+#### Estrutura do ficheiro JSON procesado
+
+![Diagrama JSON](img/4_json_structure.png)
+
 ## Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso].
 
 ## Deseño de interface de usuarios [mockups ou diagramas...].
