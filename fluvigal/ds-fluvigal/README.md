@@ -2,7 +2,7 @@
 
 __ds-fluvigal__ é o servidor que aloxará tanto a base de datos (fluvigal_db en MariaDB), como a aplicación web (fluvigal-web en Tomcat), ademáis da aplicación fluvigal-pr. Será un LXD Container Debian 10, aínda que nun escenario de produción, o despregamento estaría plantexado para Docker. 
 
-Nesta [ligazón](https://drive.google.com/file/d/1WXAOaOe-8UPsp1X6-zec68dObLIT9rNg/view?usp=sharing) atópase a imaxe do container configurada, máis neste documento exporase tamén a configuración que tomou:
+Nesta [ligazón](https://drive.google.com/file/d/1WXAOaOe-8UPsp1X6-zec68dObLIT9rNg/view?usp=sharing) atópase a imaxe do container configurada, máis neste documento exporase tamén a configuración que tomou.
 
 Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instancia de Google Cloud con IP estática: 104.198.73.152
 
@@ -23,7 +23,7 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
     # Executamos o script SQL 
     MariaDB [(none)]> source /tmp/fluvigal_db.sql
 
-> Nota: [fluvigal_db.sql](./fluvigal_db.sql) é o arquivo localizado neste mesmo directorio.
+> Nota: [fluvigal_db.sql](./fluvigal_db.sql) é o arquivo localizado neste mesmo directorio. Neste script podemos visualizar dous tipos de usuarios diferentes, un anónimo `''@'%'` que terá só permiso de consulta `SELECT` e será o que utilizará a librería externa __fluvigal-op__, e o outro, `usuario`, será o que autentique dende __fluvigal-pr__ para actualizar a base de datos. Podese observar unha necesaria gran carga inicial de datos, xa que a base de datos ten unha estrutura fixa, é dicir, só se actualizan as medicións, non se precisa gardar histórico xa que só se proporciona a información do momento da consulta, o resto das táboas gardan sempre os mesmos datos. 
 
 ## Instalación de fluvigal-pr + Python + cron
 
