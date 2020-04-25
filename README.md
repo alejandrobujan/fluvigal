@@ -102,7 +102,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 
 ## Guía de contribución
 
-Este proxecto admite contribucións tanto de usuarios cotiás como de programadores, agradécese calquera tipo de colaboración que axude a __fluvigal__ a crecer. As pautas a seguir están redactadas no ficheiro [CONTRIBUTING](CONTRIBUTING.md).
+Este proxecto admite contribucións tanto de usuarios cotiás como de programadores, agradécese calquera tipo de colaboración que axude a __fluvigal__ a medrar. As pautas a seguir están redactadas no ficheiro [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Links
 
