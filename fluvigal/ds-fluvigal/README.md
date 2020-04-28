@@ -45,6 +45,18 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
 
     # Cambiamos o porto 8080 ao 80 en <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
     $ nano /etc/tomcat9/server.xml
+    
+    # Facemos unha copia de seguridade da Aplicación por defecto (por se acaso)
+    $ cp -r /var/lib/tomcat9/webapps/ROOT/ /var/lib/tomcat9/webapps/rootold
+
+    # Limpamos a aplicación raíz
+    $ rm -r /var/lib/tomcat9/webapps/ROOT/*
+
+    # Copiamos os novos recursos (dende anfitrión)
+    $ scp -rp * alejandro_bujan_pampin@104.198.73.152:/var/lib/tomcat9/webapps/ROOT/
+
+    # Facemos referencia ás librarías dende o classpath
+    $ echo "export CLASSPATH=.:/var/lib/tomcat9/webapps/ROOT/WEB-INF/*" >> /etc/profile
 
     # Reiniciamos o servizo
     $ systemctl restart tomcat9
