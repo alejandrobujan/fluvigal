@@ -51,7 +51,7 @@ Engargada das peticións externas, do seu procesamento e da actualización conti
 Tanto as interfaces web como móbil son moi intuitivas e permiten unha experiencia de usuario sen complicacións, permitindo:
 
 + Listar os ríos pertencentes á rede de aforos galega.
-+ Listar as estacións pertencentes á rede de aforos galega, podendo filtrar por río ou por provincia.
++ Listar as estacións pertencentes á rede de aforos galega, podendo filtrar por río.
 + Consultar o estado actual do nivel dos ríos galegos.
 + Consultar o estado actual do caudal dos ríos galegos.
 + Consultar a localización exacta das estacións que realizan estas medicións mediante __Google Maps__.
