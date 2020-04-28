@@ -38,7 +38,7 @@ Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instanc
 
 > Nota: Localización de fluvigal-pr [aquí](../fluvigal-pr/).
 
-## Instalación Tomcat + app web (fluvigal-web) (en proceso)
+## Instalación Tomcat + app web (fluvigal-web)
 
     # Instalamos Apache Tomcat
     $ apt install tomcat9
