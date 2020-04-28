@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>fluvigal</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/vnd.microsoft.icon" href="../ico/favicon.ico">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <style>
+         .row {
+         margin-bottom: 15px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="jumbotron text-left" style="margin:0; background-color: white; padding: 0px;">
+         <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="api" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float:right; margin-right: 10px; margin-top: 10px">API</button>
+            <div class="dropdown-menu" aria-labelledby="api" style="float:right; margin-right: 10px; margin-top: 10px">
+               <a class="dropdown-item" href="http://104.198.73.152/api/fluvigal-op">fluvigal-op</a>
+               <a class="dropdown-item" href="http://104.198.73.152/api/fluvigal-pr">fluvigal-pr</a>
+            </div>
+         </div>
+         <img src="../img/0_logo.png" width="403.5px" height="150px">
+      </div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom: 20px;">
+         <a class="navbar-brand" href="#">Menú</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="../index.jsp">Estacións</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="../rios/index.jsp">Ríos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#">Sobre fluvigal</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div style="margin-right: 100px; margin-left: 100px; margin-top: 20px">
+         <h2 style="margin-bottom: 15px; border-bottom: 1px solid gray;">Sobre fluvigal</h2>
+         <div>
+            <p style="text-align: justify"><strong>fluvigal</strong> (<em>fluvi</em> de <a href="https://academia.gal/dicionario/-/termo/fluvial">fluvial</a> e <em>gal</em> de <a href="https://gl.wikipedia.org/wiki/Galicia">Galicia</a>) é unha implementación tanto móbil como web dunha aplicación que facilita e amosa ao público, os datos do estado actual dos ríos galegos (o nivel e caudal da auga), así como o estado actual das estacións na rede de aforos que actualmente están en servizo en Galicia (actualizado cada 10 minutos).</p>
+            <p style="text-align: justify">Unha estación de aforo, é un punto situado no cauce dun río, onde se controla o nivel e caudal que circula por éste. A aplicación encargarase de recopilar estes datos, fundamentais para o correcto seguimento dos episodios de seca e enchente, e de facilitalos a usuarios de todo tipo, xa sexan particulares, empresas ou organizacións non gubernamentais, como información de especial interese ante a situación de cambio climático e quecemento global que sofre o noso planeta.</p><br>
+            <p style="text-align: justify">O proxecto íntegro e código fonte atópase facendo click <a href="https://gitlab.iessanclemente.net/damo/a16alejandrobp.git">aquí</a> ou no repositorio de GitLab:</p>
+            <code>
+               https://gitlab.iessanclemente.net/damo/a16alejandrobp.git
+            </code>
+            <br><br>
+            <p style="text-align: justify">Para acceder á documentación das librerías faga click no botón API da esquina superior dereita da páxina web.</p>
+         </div>
+      </div>
+      <div class="jumbotron text-center bg-dark" style="margin-top: 50px; margin-bottom: 0px; color: white; position: fixed; left: 0;
+         bottom: 0;
+         width: 100%; 
+         background-color: white;
+         padding: 0px;">
+         <p>©2020 Alejandro Buján Pampín - Proxecto DAM Ordinario - IES San Clemente</p>
+      </div>
+   </body>
+</html>
