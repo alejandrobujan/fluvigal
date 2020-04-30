@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fluvigal</string>
+    <string name="tab_text_1">Estacións</string>
+    <string name="tab_text_2">Ríos</string>
+    <string name="menu_about">Sobre fluvigal</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

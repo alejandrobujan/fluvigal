@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=AE:10:F3:3E:47:6B:EC:36:7D:6F:7F:40:03:FC:55:FF:97:51:AE:DA%3Bcom.fluvigal.mob.ui.main
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.fluvigal.mob.ui.main
+
+    SHA-1 certificate fingerprint:
+    AE:10:F3:3E:47:6B:EC:36:7D:6F:7F:40:03:FC:55:FF:97:51:AE:DA
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD112MMV95h-JW0r8zMy6hyARRj-MyY0ZM</string>
+</resources>
