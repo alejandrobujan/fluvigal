@@ -98,7 +98,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
     7.2 [fluvigal-pr](fluvigal/fluvigal-pr/)  
     7.3 [fluvigal-op](fluvigal/fluvigal-op/)  
     7.4 [fluvigal-web](fluvigal/fluvigal-web/)  
-    7.5 [fluvigal-mob](fluvigal/fluvigal-mob/) (Por implementar)  
+    7.5 [fluvigal-mob](fluvigal/fluvigal-mob/)    
 8. [Mecanismo de versionado](doc/versionado.md)
 9. [Changelog](CHANGELOG.md)
 
