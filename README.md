@@ -28,9 +28,11 @@ O código fonte está accesible dende [fluvigal/fluvigal-web](fluvigal/fluvigal-
 
 #### Aplicación móbil (fluvigal-mob)
 
-A versión da aplicación para dispositivos móbiles é compatible con terminais `Android` coa versión X.Y (por determinar) como mínimo. Para probala dende un computador será preciso un emulador de `Android` coa mesma versión mínima que a indicada anteriormente. 
+A versión da aplicación para dispositivos móbiles é compatible con terminais `Android` coa versión 7.0 (API 24) como mínimo. Para probala dende un computador será preciso un emulador de `Android` coa mesma versión mínima que a indicada anteriormente. 
 
-O ficheiro APK está atópase ubicado [aquí](). O código fonte está accesible dende [fluvigal/fluvigal-mob](fluvigal/fluvigal-mob).
+O ficheiro APK está atópase ubicado [aquí](https://drive.google.com/file/d/1x8BfsohulLkNLGbhLDqDiFLCRGbmI1fb/view?usp=sharing). O código fonte está accesible dende [fluvigal/fluvigal-mob](fluvigal/fluvigal-mob).
+
+> **Nota**: A aplicación foi probada con éxito nun dispositivo físico **Xiaomi Mi A1** (7.0) e nun emulador **Pixel** (9.0).
 
 ### Contorno e infraestrutura (Avanzado)
 
