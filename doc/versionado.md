@@ -8,7 +8,7 @@ Nun contorno de producción, o deseño das etiquetas basearase no descrito a con
 | ------ | ------ |
 | `x` | É un número que se incrementará, comezando dende o 1, cando se realicen cambios de primeiro nivel ou na estrutura da base de datos. |
 | `y` | É un número que se incrementará, comezando dende o 0, cando se realicen cambios que se poidan apreciar dende a interface gráfica (aspectos funcionais). | 
-| `z` | É un número que se incrementará, comezando dende o 0, cando se realicen correccións no teu programa ou refactorizacións. (aspectos non funcionais). |
+| `z` | É un número que se incrementará, comezando dende o 0, cando se realicen correccións teu programa ou refactorizacións. (aspectos non funcionais). |
 | `(sufixo)` | Se é preciso, indicará a fase de desenvolvemento na que se atopa a versión (alpha, beta, rc). A súa ausencia indica unha versión estable. | 
 
 Algúns exemplos:
