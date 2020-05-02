@@ -106,7 +106,7 @@ public class MariaDBConnector {
     */
     public static List<Estacion> estacionsAsList() throws Exception{
         ArrayList<Estacion> estacions = new ArrayList<>();
-        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion");
+        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion ORDER BY nome ASC");
         ResultSet data = query.executeQuery();
         while(data.next()){
             estacions.add(new Estacion(data.getInt("idEstacion"), data.getString("nome"), data.getDouble("latitude"), data.getDouble("lonxitude"), data.getString("concello"), rioQuery(data.getInt("idRio")), provinciaQuery(data.getInt("idProvincia"))));
@@ -121,7 +121,7 @@ public class MariaDBConnector {
     */
     public static List<Estacion> estacionsAsList(Rio rio) throws Exception{
         ArrayList<Estacion> estacions = new ArrayList<>();
-        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion WHERE idRio = ?");
+        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion WHERE idRio = ? ORDER BY nome ASC");
         query.setInt(1, rio.getIdRio());
         ResultSet data = query.executeQuery();
         while(data.next()){
@@ -137,7 +137,7 @@ public class MariaDBConnector {
     */
     public static List<Estacion> estacionsAsList(Provincia provincia) throws Exception{
         ArrayList<Estacion> estacions = new ArrayList<>();
-        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion WHERE idProvincia = ?");
+        PreparedStatement query = connection.prepareStatement("SELECT * FROM Estacion WHERE idProvincia = ? ORDER BY nome ASC");
         query.setInt(1, provincia.getIdProvincia());
         ResultSet data = query.executeQuery();
         while(data.next()){
