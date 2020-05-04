@@ -10,10 +10,10 @@ Son agradecidas as contribucións tanto de usuarios cotiás como de programadore
 
 Algunhas das formas das que pode colaborar un usuario cotiá son:
 
-+ Procurar, atopar e notificar [faltas ortográficas]().
-+ Informar de [erros]() que descubran en execución.
-+ Contribuír con [traduccións]() a outras linguaxes.
-+ Comentar calquera tipo de [suxerencia]().
++ Procurar, atopar e notificar [faltas ortográficas](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Erro%20ortográfico).
++ Informar de [erros](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Erro%20na%20execución) que descubran en execución.
++ Contribuír con [traducións](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Tradución) a outras linguaxes.
++ Comentar calquera tipo de [suxerencia](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Suxerencia).
 
 ### Programadores
 
