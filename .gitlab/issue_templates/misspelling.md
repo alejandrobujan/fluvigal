@@ -1,4 +1,4 @@
- ~"Misspelling"
+/label ~"Misspelling"
 
 #### Ubicación
 
