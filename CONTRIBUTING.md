@@ -11,9 +11,9 @@ Son agradecidas as contribucións tanto de usuarios cotiás como de programadore
 Algunhas das formas das que pode colaborar un usuario cotiá son:
 
 + Procurar, atopar e notificar [faltas ortográficas](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Erro%20ortográfico&issuable_template=misspelling).
-+ Informar de [erros](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Erro%20na%20execución) que descubran en execución.
-+ Contribuír con [traducións](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Tradución) a outras linguaxes.
-+ Comentar calquera tipo de [suxerencia](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Suxerencia).
++ Informar de [erros](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Erro%20na%20execución&issuable_template=runtime_bug) que descubran en execución.
++ Contribuír con [traducións](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Tradución&issuable_template=translation) a outras linguaxes.
++ Comentar calquera tipo de [suxerencia](https://gitlab.iessanclemente.net/damo/a16alejandrobp/issues/new?issue[title]=Suxerencia&issuable_template=suggestion).
 
 ### Programadores
 
