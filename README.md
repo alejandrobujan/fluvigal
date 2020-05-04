@@ -121,7 +121,7 @@ Este proxecto admite contribucións tanto de usuarios cotiás como de programado
 | Apache Tomcat                       | http://tomcat.apache.org/
 | Apache Maven                        | http://maven.apache.org/
 | ReactiveX                           | http://reactivex.io/
-| BootStrap                           | https://getbootstrap.com/
+| Bootstrap                           | https://getbootstrap.com/
 | Free Software Foundation            | https://www.fsf.org/es
 
 ***
