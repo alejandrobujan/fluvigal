@@ -35,7 +35,7 @@ A solución será principalmente promovida mediante redes sociais debido ao seu 
 
 ### Modelo de negocio
 
-O modelo de negocio escollido estará baseado na publicidade e anuncios, xa que non sería convinte nin directa nin indirectamente, obrigar aos usuarios a pagar polo seu emprego. Polo menos por agora, **fluvigal** ten o obxectivo de achegar aos usuario información que é de **todos**, e a filosofía é  que non se debería limitar a súa obtención xa que tería o efecto contrario, a idea é informar e concienciar á xente, ante unha situación que non é ningunha broma. Por todo isto, considero a publicidade como o xeito perfecto para compensar o custo do desenvolvemento da solución, e para motivar o seu crecemento. Ademáis, intentarase motivar aos usuarios a realizar donacións que axuden ao proxecto.
+O modelo de negocio escollido estará baseado na publicidade e anuncios, xa que non sería convinte nin directa nin indirectamente, obrigar aos usuarios a pagar polo seu emprego. Polo menos por agora, **fluvigal** ten o obxectivo de achegar aos usuarios información que é de **todos**, e a filosofía é que non se debería limitar a súa obtención xa que tería o efecto contrario ao que se busca, xa que a idea é informar e concienciar á xente ante unha situación que non é ningunha broma. Por todo isto, considero a publicidade como o xeito perfecto para compensar o custo do desenvolvemento da solución, e para motivar o seu crecemento. Ademáis, intentarase animar aos usuarios a realizar donacións que axuden ao proxecto.
 
 # Webgrafía
 
