@@ -88,7 +88,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 ## Índice
 
 1. [Idea](doc/1_idea.md) 
-2. [Necesidades](doc/templates/2_necesidades.md) (Por facer)
+2. [Necesidades](doc/2_necesidades.md) 
 3. [Análise](doc/templates/3_analise.md) (Por facer)
 4. [Deseño](doc/4_deseno.md) (Incompleto)
 5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
