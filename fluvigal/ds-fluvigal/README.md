@@ -1,8 +1,6 @@
 # ds-fluvigal
 
-__ds-fluvigal__ é o servidor que aloxará tanto a base de datos (fluvigal_db en MariaDB), como a aplicación web (fluvigal-web en Tomcat), ademáis da aplicación fluvigal-pr. Será un LXD Container Debian 10, aínda que nun escenario de produción, o despregamento estaría plantexado para Docker. 
-
-Nesta [ligazón](https://drive.google.com/file/d/1WXAOaOe-8UPsp1X6-zec68dObLIT9rNg/view?usp=sharing) atópase a imaxe do container configurada, máis neste documento exporase tamén a configuración que tomou.
+__ds-fluvigal__ é o servidor que aloxará tanto a base de datos (fluvigal_db en MariaDB), como a aplicación web (fluvigal-web en Tomcat), ademáis da aplicación fluvigal-pr. Será un container Debian 10, e nun escenario de produción, o despregamento podería estar plantexado para Docker. 
 
 Para facilitar as demostracións, ds-fluvigal aloxarase tamén como unha instancia de Google Cloud con IP estática: 104.198.73.152
 
