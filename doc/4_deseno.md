@@ -42,9 +42,9 @@
 
 ![Diagrama JSON](img/4_json_structure.png)
 
-## Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso].
+## Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso] (por facer)
 
-## Deseño de interface de usuarios [mockups ou diagramas...].
+## Deseño de interface de usuarios [mockups ou diagramas...] (por facer)
 
 ## Diagrama de Base de Datos.
 

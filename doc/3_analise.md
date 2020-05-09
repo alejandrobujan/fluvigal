@@ -18,7 +18,7 @@ Todas as funcionalidades descritas a continuación son as incluídas nas aplicac
 5. Consultar a localización exacta das estacións que realizan estas medicións mediante __Google Maps__.
 6. Actualización automática dos datos cada 10 minutos.
  
-## Requerimentos non funcionais
+## Requerimentos non funcionais (por facer)
 
 Requerimentos relativos a rendemento, seguridade, etc. se procede
 
@@ -41,7 +41,7 @@ Como é comentado no apartado de [Funcionalidades](#Funcionalidades), nas aplica
 
 #### Servidor
 
-O servidor é unha instancia en Google Cloud de tipo *n1-standard-1*:
+O servidor [ds-fluvigal](../fluvigal/ds-fluvigal) é unha instancia en Google Cloud de tipo *n1-standard-1*:
 
 | Tipo              | Requerido
 |:-                 |:-
@@ -82,19 +82,50 @@ Para os clientes móbiles precisarase como mínimo Android Nougat (7.0) e nel in
 
 Para os equipos de desenvolvemento, o sistema operativo deberá estar marcado polas posibilidades que ofrezan os requerimentos de *Android Studio* e *Visual Studio Code*, que son os IDEs empregados para o seu desenvolvemento.
 
-## Interfaces externos
+## Interfaces externas
 
-Indicar como se comunicará o noso software co exterior, é posible que só teña interfaces de usuario, que normalmente son as pantallas. Un exemplo de interface hardware sería un lector de código de barras.
+Ao ser **fluvigal** un proxecto cunha importante infraestrutura por detrás, a comunicación entre as diferentes partes é esencial para o seu funcionamento.
 
 ### Interfaces de usuario
 
+As interfaces de usuario das implementacións tanto web como móbil, basearase en pestanas "Estacións" e "Ríos" que levarán a seccións ou pantallas que listen cada un dos elementos correspondentes. Ao facer click en cada un deles, mostrarán a información ou subelementos relativos. Os diagramas de deseño das interfaces de usuario están no apartado de [Deseño](4_deseño.md).
 
 ### Interfaces hardware
 
+A interface hardware esencial en **fluvigal** é a súa interface de rede, esta será pola cal os clientes se comunicarán co servidor e tamén pola que o servidor poderá actualizar os seus datos cada 10 minutos. A información básica reflectida sobre a interface de rede en *Google Cloud Console* é a seguinte:
+
+![Interface de rede](img/3_interface_rede.png)
+
+Para os clientes, citar tamén os periféricos como monitor, teclado e rato se procede ou a pantalla táctil nos terminais móbiles. Ademáis dunha interface de rede propia coa que conectar con **fluvigal**.
 
 ### Interfaces software
 
+As interfaces software máis importantes de **fluvigal** son [fluvigal-pr](../fluvigal/fluvigal-pr) (encargada de comunicarse co servidor da Xunta e procesar os datos reais e introducilos na base de datos) e [fluvigal-op](../fluvigal/fluvigal-op) (encargada de comunicar ás aplicacións cliente coa base de datos para realizar as consultas correspondentes).
 
 ## Melloras futuras
 
-É posible que o noso proxecto se centre en resolver un problema concreto que se poderá ampliar no futuro con novas funcionalidades, novas interfaces, etc.
+O proxecto **fluvigal** está suxeito a análises para a súa mellora continua. A día de hoxe, as melloras futuras que se contemplan nun curto prazo son:
+
+### Histórico e gráficas con Chart.js
+
+<img src="img/3_chartjs.png" width="33%" height="33%"/>
+
+Os cambios comezarían dende a propia base de datos, onde en vez de actualizar as medicións cada 10 minutos, engadiríanse outras novas e a data comezaría a formar parte da clave primaria.
+
+Por defecto nos clientes mostraríase a actualización máis recente, visualizando os datos nunha gráfica con liña de tempo, estas gráficas implementaríanse mediante [Chart.js](https://www.chartjs.org/) de forma moi sinxela ao ser unha biblioteca JavaScript completamente compatible con servlets JSP como é o caso do noso cliente web, e a posibilidade de engadilo ao cliente móbil mediante obxectos WebView.
+
+### Desenvolvemento de app para iOS
+
+<img src="img/3_ios.png" width="50%" height="50%"/>
+
+Para completar o desenvolvemento móbil, sería convinte a creación dun cliente para dispositivos iOS, isto podería levarse a cabo de dous xeitos que serán debatidos no futuro, pero que quedan aquí expostos:
+
++ a) ***Desenvolvemento nativo con Swift e Xcode***: implicaría máis modularización do código, polo tanto, sería preciso software máis específico e máis traballo, pero tamén maior coñecemento das posibilidades de explotación da app ao estar empregando o contorno [Xcode](https://developer.apple.com/xcode/) e linguaxe [Swift](https://developer.apple.com/swift/) propios e oficiais de Apple.
+
++ b) ***Migración de todo o desenvolvemento móbil a Xamarin***: implicaría unificar todo o desenvolvemento de clientes para dispositivos móbiles na plataforma [Xamarin](https://dotnet.microsoft.com/apps/xamarin) de Microsoft, estando suxeito ás condicións desta plataforma e desenvolvendo e C#. De primeiras produciría un cambio moi importante no contorno e unha formación extra, pero a longo prazo, co mesmo traballo, desenvolveríanse ambas as aplicacións para Android e iOS.
+
+### Outros
+
++ Comparacións cos caudais ecolóxicos para comprobar a variación do caudal actual respecto a este.
++ Mellora da interface, ofrecendo imaxes de cada río ou información extra.
++ Implementación de [Docker](https://www.docker.com/).
