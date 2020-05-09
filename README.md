@@ -126,4 +126,4 @@ Este proxecto admite contribucións tanto de usuarios cotiás como de programado
 
 ***
 
-Deseño da __base__ do logo atribuído a [Vecteezy](https://www.vecteezy.com/vector-art/595494-wave-water-logo-beach-vector).
+Deseño da base do logotipo atribuído a [Vecteezy](https://www.vecteezy.com/vector-art/595494-wave-water-logo-beach-vector).
