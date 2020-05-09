@@ -50,7 +50,7 @@ Engargada das peticións externas, do seu procesamento e da actualización conti
 
 ## Uso
 
-Tanto as interfaces web como móbil son moi intuitivas e permiten unha experiencia de usuario sen complicacións, permitindo:
+Tanto as interfaces web como móbil son moi intuitivas e permiten unha experiencia de usuario sen complicacións, permitindo, mediante simples botóns e enlaces, realizar as seguintes operacións:
 
 + Listar os ríos pertencentes á rede de aforos galega.
 + Listar as estacións pertencentes á rede de aforos galega, podendo filtrar por río.
@@ -89,7 +89,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 
 1. [Idea](doc/1_idea.md) 
 2. [Necesidades](doc/2_necesidades.md) 
-3. [Análise](doc/templates/3_analise.md) (Por facer)
+3. [Análise](doc/3_analise.md) (Incompleto)
 4. [Deseño](doc/4_deseno.md) (Incompleto)
 5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
 6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
