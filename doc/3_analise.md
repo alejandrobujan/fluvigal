@@ -31,14 +31,19 @@ Como é comentado no apartado de [Funcionalidades](#Funcionalidades), nas aplica
 | 'usuario'@'localhost' | X | X | X | X | X | X | Encargado de modificar a BD. Uso exclusivo no servidor. 
 | ''@'%' | X |  |  |  |  |  | Empregado polos clientes para consultar remotamente os datos e mostralos nas interfaces. É anónimo e non ten contrasinal xa que son datos públicos.
  
-## Entorno operacional
+## Contorno operacional
+
+> **IMPORTANTE**: En todo o contorno é precisa unha conexión a internet para un correcto funcionamento.
 
 ### Hardware requerido
+
+***
 
 #### Servidor
 
 O servidor é unha instancia en Google Cloud de tipo *n1-standard-1*:
-| <br>              | <br>
+
+| Tipo              | Requerido
 |:-                 |:-
 | CPU               | **1 vCPU**
 | Plataforma de CPU | **Intel Haswell**
@@ -61,9 +66,11 @@ Nos equipos de desenvolvemento, os requerimentos hardware serían os precisos pa
 
 ### Software
 
+***
+
 #### Servidor
 
-Instalarase de base o sistema operativo **Debian 10** cos servizos *MariaDB* e *Apache Tomcat*, ademáis de [fluvigal-pr](../fluvigal/fluvigal-pr).
+No servidor [ds-fluvigal](../fluvigal/ds-fluvigal) instalarase de base o sistema operativo **Debian 10** cos servizos *MariaDB* e *Apache Tomcat* (no que se executará [fluvigal-web](../fluvigal/fluvigal-web)), ademáis de [fluvigal-pr](../fluvigal/fluvigal-pr).
 
 #### Clientes
 
