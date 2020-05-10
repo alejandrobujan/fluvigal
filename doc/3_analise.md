@@ -18,9 +18,39 @@ Todas as funcionalidades descritas a continuación son as incluídas nas aplicac
 5. Consultar a localización exacta das estacións que realizan estas medicións mediante __Google Maps__.
 6. Actualización automática dos datos cada 10 minutos.
  
-## Requerimentos non funcionais (por facer)
+## Requerimentos non funcionais
 
-Requerimentos relativos a rendemento, seguridade, etc. se procede
+### Usabilidade
+
+As interfaces deben ser sinxelas e intuitivas. Calquera usuario sen coñecemento amplo nas TIC debería ser capaz de empregala.
+
+A aplicación web deberá contar cun deseño *responsive* que garantice unha visualización adecuada tanto en computadores persoais, como en dispositivos móbiles (tabletas e smartphones).
+
+### Rendemento
+
+A conexión co servidor de Datos Abertos da Xunta de Galicia debe ser exitosa e proporcionar o ficheiro JSON apropiado e actualizado. 
+
+A instancia na nube do servidor de **fluvigal** deberá estar sempre activa e ofrecer unha conexión estable.
+
+### Seguridade
+
+Os accesos remotos ao servidor agás os de consulta da base de datos, serán sempre baixo cifrado asimétrico, permitindo só a autenticación aos clientes autorizados.
+
+### Mantenibilidade 
+
+As técnicas empregadas no proceso de desenvolvemento deben ser o menos intrusivas posibles, e baseadas sempre no seguimento de estándares que faciliten a adaptación a futuros cambios, corrección de fallos ou melloras de funcionamento.
+
+### Portabilidade
+
+O sistema debe poder funcionar sobre un sistema xestor de bases de datos diferente ao actual.
+
+A aplicación web deberá poder ser executada nos navegadores actualmente máis populares sen limitacións.
+
+### Ética
+
+A información sobre os ríos deberá ser sempre pública e de libre consulta. En nungún caso se limitará o acceso baixo ningún termo económico.
+
+O proxecto é e será software libre, co cal estará sempre suxeito ás catro liberdades: usar, estudar, distribuí e mellorar.
 
 ## Tipos de usuarios
 
