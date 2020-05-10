@@ -89,7 +89,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 
 1. [Idea](doc/1_idea.md) 
 2. [Necesidades](doc/2_necesidades.md) 
-3. [Análise](doc/3_analise.md) (Incompleto)
+3. [Análise](doc/3_analise.md) 
 4. [Deseño](doc/4_deseno.md) (Incompleto)
 5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
 6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
