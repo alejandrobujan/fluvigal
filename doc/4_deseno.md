@@ -44,7 +44,15 @@
 
 ## Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso] (por facer)
 
-## Deseño de interface de usuarios [mockups ou diagramas...] (por facer)
+## Deseño de interface de usuarios [mockups ou diagramas...]
+
+### fluvigal-web
+
+![Mockup](img/4_web_mockup.png)
+
+### fluvigal-mob
+
+![Mockup](img/4_mob_mockup.png)
 
 ## Diagrama de Base de Datos.
 
