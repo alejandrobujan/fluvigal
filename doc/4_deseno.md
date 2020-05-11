@@ -1,7 +1,6 @@
 # FASE DE DESEÑO
 
-
-## Diagrama de compoñentes software que constitúen o produto e de despregue.
+## Diagrama de compoñentes software que constitúen o produto e de despregue
 
 ![Contorno](img/4_contorno_numeros.png)
 
@@ -26,9 +25,7 @@
 
 + <span style="color:blue">Azul</span>: A tecnoloxía ReactiveX é empregada na App Android (con RxJava e RxAndroid) para controlar a concurrencia, fluxos e evitar memory leak, especialmente en requests que empregan a librería JAR..
 
-
-
-## Modelo conceptual do dominio da aplicación e/ou Diagrama de clases [usando UML, ConML, ou linguaxe semellante].
+## Modelo conceptual do dominio da aplicación e/ou Diagrama de clases
 
 ### fluvigal-op
 
@@ -44,7 +41,7 @@
 
 ## Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso] (por facer)
 
-## Deseño de interface de usuarios [mockups ou diagramas...]
+## Deseño de interface de usuarios
 
 ### fluvigal-web
 
@@ -54,6 +51,6 @@
 
 ![Mockup](img/4_mob_mockup.png)
 
-## Diagrama de Base de Datos.
+## Diagrama de Base de Datos
 
 ![EE-R](img/4_eer.png)
