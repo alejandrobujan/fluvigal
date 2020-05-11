@@ -13,7 +13,7 @@
 
 4. Librería JAR desenvolta por min que conteña as clases que modelan as táboas da BD en ORM, con métodos que permiten facer consultas e recibir obxectos.
 
-5. LXD Container (en produción optarase por Docker) Debian 10 cos seguintes servizos:
+5. Debian 10 cos seguintes servizos:
     + MySQL onde se almacenen os datos procesados.
     + Apache Tomcat que aloxará a aplicación en JSP desenvolta por min que mostre os datos a través do JAR. Interface xerada con Bootstrap.
 
@@ -23,7 +23,7 @@
 
 + <span style="color:green">Verde</span>: A librería JAR permite a ambas aplicacións consultar os datos da BD e recibilos como obxectos.
 
-+ <span style="color:blue">Azul</span>: A tecnoloxía ReactiveX é empregada na App Android (con RxJava e RxAndroid) para controlar a concurrencia, fluxos e evitar memory leak, especialmente en requests que empregan a librería JAR..
++ <span style="color:blue">Azul</span>: A tecnoloxía ReactiveX é empregada na App Android (con RxJava e RxAndroid) para controlar a concurrencia, fluxos e evitar memory leak, especialmente en requests que empregan a librería JAR.
 
 ## Modelo conceptual do dominio da aplicación e/ou Diagrama de clases
 
