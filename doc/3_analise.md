@@ -54,12 +54,7 @@ O proxecto é e será software libre, co cal estará sempre suxeito ás catro li
 
 ## Tipos de usuarios
 
-Como é comentado no apartado de [Funcionalidades](#Funcionalidades), nas aplicacións cliente non existe autenticación, máis no backend, á hora de operar na base de datos, sí é preciso ter certo control en base ao seguintes usuarios, cos correspondentes permisos:
-
-| Usuario | SELECT | CREATE | DROP | INSERT | UPDATE | DELETE | Observacións
-|:-       |:-      |:-      |:-    |:-      |:-      |:-      |:-   
-| 'usuario'@'localhost' | X | X | X | X | X | X | Encargado de modificar a BD. Uso exclusivo no servidor. 
-| ''@'%' | X |  |  |  |  |  | Empregado polos clientes para consultar remotamente os datos e mostralos nas interfaces. É anónimo e non ten contrasinal xa que son datos públicos.
+Como é comentado no apartado de [Funcionalidades](#Funcionalidades), nas aplicacións cliente non existe autenticación. Os usuarios son completamente anónimos ao estar empregando unha aplicación de consulta de datos públicos, polo tanto non existen roles.
  
 ## Contorno operacional
 
@@ -110,7 +105,7 @@ Para os clientes móbiles precisarase como mínimo Android Nougat (7.0) e nel in
 
 #### Equipos de desenvolvemento
 
-Para os equipos de desenvolvemento, o sistema operativo deberá estar marcado polas posibilidades que ofrezan os requerimentos de *Android Studio* e *Visual Studio Code*, que son os IDEs empregados para o seu desenvolvemento.
+Para os equipos de desenvolvemento, o sistema operativo deberá estar marcado polas posibilidades que ofrezan os requerimentos de [Android Studio](https://es.wikipedia.org/wiki/Android_Studio#Plataformas) e [Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements), que son os IDEs empregados para o seu desenvolvemento.
 
 ## Interfaces externas
 
@@ -122,9 +117,7 @@ As interfaces de usuario das implementacións tanto web como móbil, basearase e
 
 ### Interfaces hardware
 
-A interface hardware esencial en **fluvigal** é a súa interface de rede, esta será pola cal os clientes se comunicarán co servidor e tamén pola que o servidor poderá actualizar os seus datos cada 10 minutos. A información básica reflectida sobre a interface de rede en *Google Cloud Console* é a seguinte:
-
-![Interface de rede](img/3_interface_rede.png)
+A interface hardware esencial en **fluvigal** é a súa interface de rede, esta será pola cal os clientes se comunicarán co servidor e tamén pola que o servidor poderá actualizar os seus datos cada 10 minutos.
 
 Para os clientes, citar tamén os periféricos como monitor, teclado e rato se procede ou a pantalla táctil nos terminais móbiles. Ademáis dunha interface de rede propia coa que conectar con **fluvigal**.
 
@@ -148,14 +141,15 @@ Por defecto nos clientes mostraríase a actualización máis recente, visualizan
 
 <img src="img/3_ios.png" width="50%" height="50%"/>
 
-Para completar o desenvolvemento móbil, sería convinte a creación dun cliente para dispositivos iOS, isto podería levarse a cabo de dous xeitos que serán debatidos no futuro, pero que quedan aquí expostos:
+Para completar o desenvolvemento móbil, sería convinte a creación dun cliente para dispositivos iOS, isto podería levarse a cabo de dous xeitos que serían debatidos no futuro, pero que quedan aquí expostos:
 
 + a) ***Desenvolvemento nativo con Swift e Xcode***: implicaría máis modularización do código, polo tanto, sería preciso software máis específico e máis traballo, pero tamén maior coñecemento das posibilidades de explotación da app ao estar empregando o contorno [Xcode](https://developer.apple.com/xcode/) e linguaxe [Swift](https://developer.apple.com/swift/) propios e oficiais de Apple.
 
-+ b) ***Migración de todo o desenvolvemento móbil a Xamarin***: implicaría unificar todo o desenvolvemento de clientes para dispositivos móbiles na plataforma [Xamarin](https://dotnet.microsoft.com/apps/xamarin) de Microsoft, estando suxeito ás condicións desta plataforma e desenvolvendo e C#. De primeiras produciría un cambio moi importante no contorno e unha formación extra, pero a longo prazo, co mesmo traballo, desenvolveríanse ambas as aplicacións para Android e iOS.
++ b) ***Migración de todo o desenvolvemento móbil a Xamarin***: implicaría unificar todo o desenvolvemento de clientes para dispositivos móbiles na plataforma [Xamarin](https://dotnet.microsoft.com/apps/xamarin) de Microsoft, estando suxeito ás condicións desta plataforma e desenvolvendo en C#. De primeiras produciría un cambio moi importante no contorno e unha formación extra, pero a longo prazo, co mesmo traballo, desenvolveríanse ambas as aplicacións para Android e iOS.
 
 ### Outros
 
 + Comparacións cos caudais ecolóxicos para comprobar a variación do caudal actual respecto a este.
++ Sistema de avisos e notificacións acerca de perigo de desbordabento e sequía.
 + Mellora da interface, ofrecendo imaxes de cada río ou información extra.
 + Implementación de [Docker](https://www.docker.com/).
