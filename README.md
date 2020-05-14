@@ -91,7 +91,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 2. [Necesidades](doc/2_necesidades.md) 
 3. [Análise](doc/3_analise.md) 
 4. [Deseño](doc/4_deseno.md) 
-5. [Planificación](doc/templates/5_planificacion.md) (Por facer)
+5. [Planificación](doc/templates/5_planificacion.md) (Incompleto)
 6. [Implantación](doc/templates/6_implantacion.md) (Por facer)
 7. [Software](fluvigal/)  
     7.1 [ds-fluvigal](fluvigal/ds-fluvigal/)  

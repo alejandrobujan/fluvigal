@@ -50,7 +50,7 @@ A aplicación web deberá poder ser executada nos navegadores actualmente máis 
 
 A información sobre os ríos deberá ser sempre pública e de libre consulta. En nungún caso se limitará o acceso baixo ningún termo económico.
 
-O proxecto é e será software libre, co cal estará sempre suxeito ás catro liberdades: usar, estudar, distribuí e mellorar.
+O proxecto é e será software libre, co cal estará sempre suxeito ás catro liberdades: usar, estudar, distribuír e mellorar.
 
 ## Tipos de usuarios
 
