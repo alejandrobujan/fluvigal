@@ -182,7 +182,8 @@ Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a in
 Duración: 3 días.
 
 ### Diagrama de Gantt
-Pódese usar o software "Gantt project" ou outro para representar nun cronograma a información relativa á planificación de tarefas.
+
+![Gantt](img/5_gantt.png)
 
 ## Orzamento
 Realizar o orzamento do proxecto é relativamente fácil se se elaboraron ben as etapas anteriores; é dicir, definir as actividades necesarias e os recursos propios de cada actividade. 
