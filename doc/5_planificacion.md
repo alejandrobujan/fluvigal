@@ -56,7 +56,7 @@ Duración: 5 días.
 
 #### Fase 4: O backend
 
-##### Tarefa 1: Desenvolvemento de fluvigal-pr
+##### Tarefa 1: Desenvolvemento de [fluvigal-pr](../fluvigal/fluvigal-pr)
 
 Subtarefas: 
 
@@ -69,7 +69,7 @@ Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a in
 
 Duración: 3 días.
 
-##### Tarefa 2: Desenvolvemento de fluvigal-op
+##### Tarefa 2: Desenvolvemento de [fluvigal-op](../fluvigal/fluvigal-op)
 
 Subtarefas: 
 
@@ -83,20 +83,20 @@ Duración: 5 días.
 
 #### Fase 5: O frontend
 
-##### Tarefa 1: Desenvolvemento de fluvigal-web
+##### Tarefa 1: Desenvolvemento de [fluvigal-web](../fluvigal/fluvigal-web)
 
 Subtarefas: 
-+ Mediante o emprego de *JavaServer Pages*, *BootStrap*, *HTML5* e *CSS*, crear unha interface web, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos.
++ Mediante o emprego de *JavaServer Pages*, *BootStrap*, *HTML5* e *CSS*, crear unha interface web, cómoda e visual, que permita mostrar, a través de [fluvigal-op](../fluvigal/fluvigal-op), os datos existentes na base de datos.
 + Probas e depuración do sistema.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e software específico para o desenvolvemento (*Visual Studio Code*) e despregue (*LXD Containers*).
 
 Duración: 7 días.
 
-##### Tarefa 2: Desenvolvemento de fluvigal-mob
+##### Tarefa 2: Desenvolvemento de [fluvigal-mob](../fluvigal/fluvigal-mob)
 
 Subtarefas: 
-+ Mediante o emprego do *Android SDK* e a tecnoloxía de programación reactiva *ReactiveX*, crear unha interface móbil, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos. 
++ Mediante o emprego do *Android SDK* e a tecnoloxía de programación reactiva *ReactiveX*, crear unha interface móbil, cómoda e visual, que permita mostrar, a través de [fluvigal-op](../fluvigal/fluvigal-op), os datos existentes na base de datos. 
 + Conectar tamén a aplicación á API de Google Maps mediante Google Cloud e unha API key para traballar con mapas.
 + Probas e depuración do sistema.
 
