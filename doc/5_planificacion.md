@@ -58,7 +58,12 @@ Duración: 5 días.
 
 ##### Tarefa 1: Desenvolvemento de fluvigal-pr
 
-Descrición: Trata de desenvolver na linguaxe *Python* un programa que sexa capaz de realizar as peticións correspondentes ao servidor de Datos Abertos e actualizar a base de datos procesando o ficheiro que éste emite. Mediante scripting en *bash* crear tamén un instalador que ademáis (instale e) configure o *cron* para realizar esas peticións cada 10 minutos. Documentar o funcionamento mediante *Pydoc*.
+Subtarefas: 
+
++ Desenvolver na linguaxe *Python* un programa que sexa capaz de realizar as peticións correspondentes ao servidor de Datos Abertos e actualizar a base de datos procesando o ficheiro que éste emite. 
++ Mediante scripting en *bash* crear tamén un instalador que ademáis (instale e) configure o *cron* para realizar esas peticións cada 10 minutos. 
++ Documentar o funcionamento mediante *Pydoc*.
++ Probas e depuración do sistema.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e software específico para o desenvolvemento (*Visual Studio Code*) e despregue (*LXD Containers*).
 
@@ -66,7 +71,11 @@ Duración: 3 días.
 
 ##### Tarefa 2: Desenvolvemento de fluvigal-op
 
-Descrición: Trata de desenvolver na linguaxe *Java* unha libraría que xere conexións de consulta á base de datos e modele as táboas podendo recuperar os datos en obxectos. Esta libraría será a que se empregue para comunicarse coas interfaces. Documentar o funcionamento mediante *Javadoc*.
+Subtarefas: 
+
++ Desenvolver na linguaxe *Java* unha libraría que xere conexións de consulta á base de datos e modele as táboas podendo recuperar os datos en obxectos. Esta libraría será a que se empregue para comunicarse coas interfaces. 
++ Documentar o funcionamento mediante *Javadoc*.
++ Probas e depuración do sistema.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e software específico para o desenvolvemento (*Visual Studio Code*) e despregue (*LXD Containers*).
 
@@ -84,7 +93,10 @@ Duración: 7 días.
 
 ##### Tarefa 2: Desenvolvemento de fluvigal-mob
 
-Descrición: Mediante o emprego do *Android SDK* e a tecnoloxía de programación reactiva *ReactiveX*, crear unha interface móbil, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos. Conectar tamén a aplicación á API de Google Maps mediante Google Cloud e unha API key para traballar con mapas.
+Subtarefas: 
++ Mediante o emprego do *Android SDK* e a tecnoloxía de programación reactiva *ReactiveX*, crear unha interface móbil, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos. 
++ Conectar tamén a aplicación á API de Google Maps mediante Google Cloud e unha API key para traballar con mapas.
++ Probas e depuración do sistema.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e software específico para o desenvolvemento (*Android Studio*) e despregue (*LXD Containers*).
 
@@ -94,7 +106,11 @@ Duración: 7 días.
 
 ##### Tarefa 1: Seguridade e regras de cortalumes
 
-Descrición: Nunha instancia de servidor Debian 10 en Google Cloud, engadir unha dirección IP pública e estática e definir regras no cortalumes que permitan o tráfico de entrada aos portos 22 (para acceder por SSH), 80 (para a páxina web) e 3306 (para o acceso remoto a MariaDB), e permitir tamén o tráfico ICMP (para comprobar conectividade). O acceso por SSH estará limitado en base a claves pública/privada, polo que haberá que transferir a clave pública do equipo de desenvolvemento para acceder.
+Subtarefas: 
++ Nunha instancia de servidor Debian 10 en Google Cloud, engadir unha dirección IP pública e estática.
++ Definir regras no cortalumes que permitan o tráfico de entrada aos portos 22 (para acceder por SSH), 80 (para a páxina web) e 3306 (para o acceso remoto a MariaDB).
++ Permitir tamén o tráfico ICMP (para comprobar conectividade). 
++ O acceso por SSH estará limitado en base a claves pública/privada, polo que haberá que transferir a clave pública do equipo de desenvolvemento para acceder.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e instancia *n1-standard-1* en Google Cloud.
 
@@ -102,9 +118,13 @@ Duración: 2 días.
 
 ##### Tarefa 2: Instalación, configuración de servizos e migración da aplicación
 
-Descrición: Poñer en marcha o servidor para que a aplicación estea operativa. Realizar unha carga inicial de datos na base de datos e instalar e configurar todos os servizos necesarios. As instruccións estan detalladas en [ds-fluvigal](../fluvigal/ds-fluvigal).
+Descrición: 
++ Poñer en marcha o servidor para que a aplicación estea operativa. 
++ Instalar e configurar todos os servizos necesarios.
++ Realizar unha carga inicial de datos na base de datos.
+> **Nota:** As instruccións estan detalladas en [ds-fluvigal](../fluvigal/ds-fluvigal).
 
-Recursos hardware/software: Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e instancia *n1-standard-1* en Google Cloud.
+Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e instancia *n1-standard-1* en Google Cloud.
 
 Duración: 4 días.
 
