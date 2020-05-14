@@ -85,7 +85,9 @@ Duración: 5 días.
 
 ##### Tarefa 1: Desenvolvemento de fluvigal-web
 
-Descrición: Mediante o emprego de *JavaServer Pages*, *BootStrap*, *HTML5* e *CSS*, crear unha interface web, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos.
+Subtarefas: 
++ Mediante o emprego de *JavaServer Pages*, *BootStrap*, *HTML5* e *CSS*, crear unha interface web, cómoda e visual, que permita mostrar, a través de fluvigal-op, os datos existentes na base de datos.
++ Probas e depuración do sistema.
 
 Recursos hardware/software: Computador de gama media (Ubuntu) con conexión a internet e software específico para o desenvolvemento (*Visual Studio Code*) e despregue (*LXD Containers*).
 
