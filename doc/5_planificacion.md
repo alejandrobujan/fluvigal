@@ -186,67 +186,28 @@ Duración: 3 días.
 ![Gantt](img/5_gantt.png)
 
 ## Orzamento
-Realizar o orzamento do proxecto é relativamente fácil se se elaboraron ben as etapas anteriores; é dicir, definir as actividades necesarias e os recursos propios de cada actividade. 
-Neste caso dispoñerase dun custo por cada actividade e a suma do custo de todas as actividades será o custo total do proxecto. 
-Para establecer os custos do proxecto téñense en conta diferentes conceptos: 
-Materiais que se utilizan: material funxible, materias primas, materiais didácticos, roupa de traballo… 
-Custo horario das persoas que participan directamente na actividade. 
-Aluguer/compra de ferramentas, maquinaria, equipos informáticos e/ou audiovisuais… 
-Aluguer/compra de locais 
-Contratos de subministracións: auga, luz, electricidade, gas… Subcontrataciones 
-Gastos de publicidade… 
-Seguros ... 
+Os datos a ter en conta á hora de calcular o orzamento son:
 
-O maior custo no proxecto case sempre corresponde ás persoas, polo que é importante controlar o número de horas que se invisten en cada actividade para que non se nos desequilibre o orzamento. Tamén hai que coidar as subcontratacións; convén que traballen cun orzamento establecido.
- A continuación preséntanse dúas opción de táboa para facilitar a creación do orzamento do proxecto:
++ ***Man de obra***: Contamos cun Programador Junior, polo que hai que pagar, aproximadamente (entre salario e deduccións) 57,28€ por cada xornada laboral de 8 horas.
++ ***Consumo enerxético***: Cun precio medio de 0,077€/kWh e tendo o equipo de traballo unha fonte de alimentación de 650W, o montante a pagar sería de € nunha xornada laboral de 8 horas.
++ ***Outros***: Importes de pago único como a alta como desenvolvedor en Google Play (25€).
+
+> **Nota:** No calculo do orzamento non contemplo o gasto da plataforma de despregue, xa que neste caso, para facilitar as demostracións estou empregando Google Cloud polo meu interés por aprender do mundo do cloud computing e polo seu **crédito gratuíto**, co cal non supón gasto algún durante a etapa de desenvolvemento. Nun escenario de producción o apropiado sería realizar unha avaliación pertinente na que en base aos beneficios e ás necesidades para o seu despregue, se escolla a plataforma axeitada.
 
 ### Orzamento por actividade
 
-| ACTIVIDADE | DURACIÓN | CUSTO (EUROS) | | CUSTO TOTAL ACTIVIDADE |
-|--|--|--|--|--|
-|            |          | PERSOAS|RECURSOS MATERIAIS|
-|||||
-|||||
-|||||
-|||||
+| ACTIVIDADE | DURACIÓN | CUSTO (EUROS)
+|--|--|--|
+|Fase 1|3 días|173,05|
+|Fase 2|8 días|461,45|
+|Fase 3|5 días|288,41|
+|Fase 4|8 días|461,45|
+|Fase 5|14 días|807,53|
+|Fase 6|6 días|346,09|
+|Fase 7|5 días|288,41|
+|Fase 8|8 días|486,45|
+| **TOTAL** |**57 días**|**3312,84**|
 
-| TOTAL | PROXECTO | 
-| -- | -- |
-
-### Orzamento por partidas de inversión / gasto:
-
-| CONCEPTO | IMPORTE|
-|--|--|
-|**A) INVERSIONS**
-|Gastos de establecemento e gastos de constitución
-|Total inmobilizacións inmateriais
-|Terreos
-|Construcións
-|Instalacións técnicas
-|Maquinaria
-|Ferramentas
-|Mobiliario e instalacións
-|Equipos informáticos
-|Elementos de transporte
-|Outro inmobilizado material
-|Total inmobilizacións materiais
-|Outros gastos a distribuír en varios exercicios
-|**TOTAL INVERSIÓNS:**
-|**B) GASTOS**
-|Compras de materiais
-|Arrendamentos
-|Publicidade, propaganda e relacións públicas
-|Persoal
-|Reparacións e conservación
-|Servizos de profesionais independentes
-|Outros gastos xerais
-|Gastos financeiros
-|Amortizacións
-|Gastos de xestión e administración
-|**TOTAL GASTOS:**
-
-|TOTAL ORZAMENTO:
-|--|
 
 ### WEBGRAFÍA
 Guía para a elaboración de proyectos. Gobierno Vasco.
