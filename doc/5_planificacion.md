@@ -196,17 +196,25 @@ Os datos a ter en conta á hora de calcular o orzamento son:
 
 ### Orzamento por actividade
 
-| ACTIVIDADE | DURACIÓN | CUSTO (EUROS)
-|--|--|--|
-|Fase 1|3 días|173,05|
-|Fase 2|8 días|461,45|
-|Fase 3|5 días|288,41|
-|Fase 4|8 días|461,45|
-|Fase 5|14 días|807,53|
-|Fase 6|6 días|346,09|
-|Fase 7|5 días|288,41|
-|Fase 8|8 días|486,45|
-| **TOTAL** |**57 días**|**3312,84**|
+| ACTIVIDADE | DURACIÓN | TIPO | CUSTO (EUROS)
+|--|--|--|--|
+|Fase 1|3 días| PERSOAL |171,84|
+||| R. MATERIAIS |1,21|
+|Fase 2|8 días| PERSOAL |458,24|
+||| R. MATERIAIS |3,21|
+|Fase 3|5 días| PERSOAL |286,40|
+||| R. MATERIAIS |2,01|
+|Fase 4|8 días| PERSOAL |458,24|
+||| R. MATERIAIS |3,21|
+|Fase 5|14 días| PERSOAL |801,92|
+||| R. MATERIAIS |5,61|
+|Fase 6|6 días| PERSOAL |343,68|
+||| R. MATERIAIS |2,41|
+|Fase 7|5 días| PERSOAL |286,40|
+||| R. MATERIAIS |2,01|
+|Fase 8|8 días| PERSOAL |458,24|
+||| R. MATERIAIS |28,21|
+| **TOTAL** |**57 días**||**3312,84**|
 
 
 ### WEBGRAFÍA
