@@ -6,11 +6,11 @@
 
 #### Requirimentos de hardware
 
-Os requerimentos de hardware para cada un dos tipos de equipos que participan no proxecto están detallados na sección "Hardware Requerido" de [Análise](3_analise_md#hardware-requerido).
+Os requerimentos de hardware para cada un dos tipos de equipos que participan no proxecto están detallados na sección "Hardware Requerido" de [Análise](3_analise.md#hardware-requerido).
 
 #### Software necesario
 
-O software necesario para cada un dos tipos de equipos que participan no proxecto están detallados na sección "Software" de [Análise](3_analise_md#hardware-requerido).
+O software necesario para cada un dos tipos de equipos que participan no proxecto están detallados na sección "Software" de [Análise](3_analise.md#software).
 
 #### Configuración inicial seguridade
 
@@ -27,11 +27,11 @@ A información básica reflectida sobre a interface de rede en *Google Cloud Con
 
 #### Carga inicial de datos na base de datos
 
-No momento da instalación da base de datos, é preciso realizar unha carga inicial coa información estática, é dicir a información que non se refresca (as estacións que pertencen a cada río, a provincia na que se atopa cada estación...). Esta información obteuse dun xeito híbrido (manual-automático) dende o ficheiro JSON, ao que se lle aplicou un certo formato para derivar nunha estrutura de datos máis eficaz. Esta carga está no ficheiro [fluvigal_db.sql](../fluvigal/ds-fluvigal/fluvigal_db.sql).
+No momento da instalación da base de datos, é preciso realizar unha carga inicial coa información estática, é dicir a información que non se refresca (as estacións que pertencen a cada río, a provincia na que se atopa cada estación, as súas coordenadas...). Esta información obteuse dun xeito híbrido (manual-automático) dende o ficheiro JSON, ao que se lle aplicou un certo formato para derivar nunha estrutura de datos máis eficaz. Esta carga está no ficheiro [fluvigal_db.sql](../fluvigal/ds-fluvigal/fluvigal_db.sql).
 
 #### Usuarios do sistema. Usuarios da aplicación
 
-Nas aplicacións cliente, non existe autenticación, ao estar consultando datos públicos, máis no backend, á hora de operar na base de datos, sí é preciso ter certo control en base ao seguintes usuarios, cos correspondentes permisos:
+Nas aplicacións cliente, non existe autenticación ao estar consultando datos públicos, máis no backend, á hora de operar na base de datos, sí é preciso ter certo control en base ao seguintes usuarios, cos correspondentes permisos:
 
 | Usuario | SELECT | CREATE | DROP | INSERT | UPDATE | DELETE | Observacións
 |:-       |:-      |:-      |:-    |:-      |:-      |:-      |:-   
