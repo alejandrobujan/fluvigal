@@ -106,11 +106,11 @@ Duración: 7 días.
 
 #### Fase 6: Administración do servidor
 
-##### Tarefa 1: Seguridade e regras de cortalumes
+##### Tarefa 1: Seguridade e regras de devasa
 
 Subtarefas: 
 + Nunha instancia de servidor Debian 10 en Google Cloud, engadir unha dirección IP pública e estática.
-+ Definir regras no cortalumes que permitan o tráfico de entrada aos portos 22 (para acceder por SSH), 80 (para a páxina web) e 3306 (para o acceso remoto a MariaDB).
++ Definir regras no devasa que permitan o tráfico de entrada aos portos 22 (para acceder por SSH), 80 (para a páxina web) e 3306 (para o acceso remoto a MariaDB).
 + Permitir tamén o tráfico ICMP (para comprobar conectividade). 
 + O acceso por SSH estará limitado en base a claves pública/privada, polo que haberá que transferir a clave pública do equipo de desenvolvemento para acceder.
 

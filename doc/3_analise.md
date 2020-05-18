@@ -99,7 +99,7 @@ No servidor [ds-fluvigal](../fluvigal/ds-fluvigal) instalarase de base o sistema
 
 #### Clientes
 
-Para os clientes web o sistema operativo é de libre elección e esa é a principal vantaxe do seu desenvolvemento. Bastaría con poder instalara un navegador web como *Mozila Firefox*, *Google Chrome*, *Microsoft Edge*, *Opera* ou *Safari*.
+Para os clientes web o sistema operativo é de libre elección e esa é a principal vantaxe do seu desenvolvemento. Bastaría con poder instalar un navegador web como *Mozila Firefox*, *Google Chrome*, *Microsoft Edge*, *Opera* ou *Safari*.
 
 Para os clientes móbiles precisarase como mínimo Android Nougat (7.0) e nel instalar a implementación [fluvigal-mob](../fluvigal/fluvigal-mob).
 
