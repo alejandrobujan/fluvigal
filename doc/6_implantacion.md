@@ -56,11 +56,8 @@ As incidencias de software máis comúns repórtanse en base ao exposto no fiche
 
 Respecto ás incidencias de sistema, o lóxico é que estean reflectidas nos ficheiros log correspondentes do servidor. No caso concreto dos accesos non autorizados á BD, aparecerán no log de error de MariaDB, modificando previamente o nivel de `log_warnings` a 2 no ficheiro de configuración.
 
-## Protección de datos de carácter persoal.
+## Protección de datos de carácter persoal
 
 Este software non almacena datos de carácter persoal, polo tanto, neste caso, a [LOPD-GDD](https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Personales_y_garant%C3%ADa_de_los_derechos_digitales) non é aplicada.
 
-## Manual de usuario
-
-* Indicar se será necesario formar ós usuarios. En caso afirmativo planificar.
-* Manual de usuario, FAQ ou outro xeito que sexa o máis adecuado para que os usuarios saiban usar a nosa aplicación informática.
+## [Manual de usuario](manual_usuario.md)
