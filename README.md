@@ -92,7 +92,7 @@ Os termos están descritos e detallados no ficheiro [LICENSE.md](LICENSE.md).
 3. [Análise](doc/3_analise.md) 
 4. [Deseño](doc/4_deseno.md) 
 5. [Planificación](doc/5_planificacion.md) 
-6. [Implantación](doc/6_implantacion.md) (Incompleto)
+6. [Implantación](doc/6_implantacion.md) 
 7. [Software](fluvigal/)  
     7.1 [ds-fluvigal](fluvigal/ds-fluvigal/)  
     7.2 [fluvigal-pr](fluvigal/fluvigal-pr/)  
