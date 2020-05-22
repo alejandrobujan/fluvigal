@@ -190,7 +190,7 @@ Os datos a ter en conta á hora de calcular o orzamento son:
 
 + ***Man de obra***: Contamos cun Programador Junior, polo que hai que pagar, aproximadamente (entre salario e deduccións) 57,28€ por cada xornada laboral de 8 horas.
 + ***Consumo enerxético***: Cun precio medio de 0,077€/kWh e tendo o equipo de traballo unha fonte de alimentación de 650W, o montante a pagar sería de 0,41€ nunha xornada laboral de 8 horas.
-+ ***Outros***: Importes de pago único como a alta como desenvolvedor en Google Play (25€).
++ ***Outros***: Conexión a internet (38€/mes) e importes de pago único como a alta como desenvolvedor en Google Play (25€).
 
 > **Nota:** No calculo do orzamento non contemplo o custo da plataforma de despregue, xa que neste caso, para facilitar as demostracións estou empregando Google Cloud polo meu interés por aprender do mundo do cloud computing e polo seu **crédito gratuíto**, co cal non supón gasto algún durante a etapa de desenvolvemento, aínda que, o prezo **ficticio** que estou "pagando" por día e de aproximadamente 1,05€. Nun escenario de producción o apropiado sería realizar unha avaliación pertinente na que en base aos beneficios e ás necesidades para o seu despregue, se escolla a plataforma axeitada. Tampouco se reflicten os custos da merca do dominio, xa que varían moito dependendo dos [ccTLD](https://es.wikipedia.org/wiki/Dominio_de_nivel_superior_geogr%C3%A1fico) (.es,.gal,.com), e habería que analizar cal sería a opción máis convinte en termos tanto económicos como de marketing.
 
@@ -199,7 +199,7 @@ Os datos a ter en conta á hora de calcular o orzamento son:
 | ACTIVIDADE | DURACIÓN | TIPO | CUSTO (EUROS)
 |--|--|--|--|
 |Fase 1|3 días| PERSOAL |171,84|
-||| R. MATERIAIS |1,21|
+||| R. MATERIAIS |39,21|
 |Fase 2|8 días| PERSOAL |458,24|
 ||| R. MATERIAIS |3,21|
 |Fase 3|5 días| PERSOAL |286,40|
@@ -207,14 +207,14 @@ Os datos a ter en conta á hora de calcular o orzamento son:
 |Fase 4|8 días| PERSOAL |458,24|
 ||| R. MATERIAIS |3,21|
 |Fase 5|14 días| PERSOAL |801,92|
-||| R. MATERIAIS |5,61|
+||| R. MATERIAIS |43,61|
 |Fase 6|6 días| PERSOAL |343,68|
 ||| R. MATERIAIS |2,41|
 |Fase 7|5 días| PERSOAL |286,40|
 ||| R. MATERIAIS |2,01|
 |Fase 8|8 días| PERSOAL |458,24|
 ||| R. MATERIAIS |28,21|
-| **TOTAL** |**57 días**||**3312,84**|
+| **TOTAL** |**57 días**||**3388,84**|
 
 
 ### WEBGRAFÍA
