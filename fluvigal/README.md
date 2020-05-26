@@ -8,5 +8,5 @@ Aquí atoparánse todos os elementos da arquitectura do proxecto __fluvigal__:
 
 #### Documentación HTML
 
-* [fluvigal-pr](fluvigal/fluvigal-pr/fluvigal-pr/doc/fluvigal-pr.html)
-* [fluvigal-op](fluvigal/fluvigal-op/fluvigal-op/target/site/apidocs/index.html)
+* [fluvigal-pr](fluvigal/fluvigal-pr/fluvigal-pr/doc)
+* [fluvigal-op](fluvigal/fluvigal-op/fluvigal-op/target/site/apidocs)
