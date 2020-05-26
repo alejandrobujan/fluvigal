@@ -32,7 +32,7 @@ A versión da aplicación para dispositivos móbiles é compatible con terminais
 
 O ficheiro APK está atópase ubicado [aquí](https://drive.google.com/file/d/1i5h8uwO-dEwRAa7lrH5RvBenhQP2AnRA/view?usp=sharing). O código fonte está accesible dende [fluvigal/fluvigal-mob](fluvigal/fluvigal-mob).
 
-> **Nota**: A aplicación foi probada con éxito nun dispositivo físico **Xiaomi Mi A1** (7.0) e nun emulador **Pixel** (9.0).
+> **Nota**: A aplicación foi probada con éxito nos dispositivos físicos **Xiaomi Mi A1** (7.0), Xiaomi Pocophone F1 (9.0), Samsung Galaxy S9 (10.0) e nun emulador **Pixel** (9.0).
 
 ### Contorno e infraestrutura (Avanzado)
 
