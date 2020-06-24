@@ -12,7 +12,7 @@ Unha estación de aforo, é un punto situado no cauce dun río, onde se controla
 
 Para obter o repositorio en local, é preciso empregar a ferramenta de terminal `git`:
 
-    git clone https://gitlab.iessanclemente.net/damo/a16alejandrobp.git
+    git clone https://github.com/alejandrobujan/fluvigal.git
 
 ### Produto final
 
