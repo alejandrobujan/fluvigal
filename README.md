@@ -63,7 +63,7 @@ Tanto as interfaces web como móbil son moi intuitivas e permiten unha experienc
 
 Chámome __Alejandro Buján Pampín__, e en termos xerais son un apaixonado da informática. Dende os comezos da miña vida (xeración do 2000) estiven en contacto coas novas tecnoloxías e isto derivou nunha relación amor-odio que rematou nomalizándose ata volverse parte de min.
 
-Actualmente son Técnico Superior en __Desenvolvemento de Aplicacións Multiplataforma__ e son Técnico en __Sistemas Microinformáticos e Redes__. Tamén acadei recoñocementos como as Medallas de Bronce (Nacional) e Ouro (Autonómico) nas olimpiadas de Formación Profesional 2018-19 na disciplina de __Administración de Sistemas en Rede__ e fixen prácticas en cidades estranxeiras como Lisboa ou Turín. Unha traxectoria que me gustaría continuar con estudos universitarios de grao en __Enxeñaría Informática__.
+Actualmente son estudante do grao en __Enxeñaría Informática__ na __Universidade da Coruña__ ademáis de Técnico Superior en __Desenvolvemento de Aplicacións Multiplataforma__ e Técnico en __Sistemas Microinformáticos e Redes__. Tamén acadei recoñocementos como as Medallas de Bronce (Nacional) e Ouro (Autonómico) nas olimpiadas de Formación Profesional 2018-19 na disciplina de __Administración de Sistemas en Rede__ e fixen prácticas en cidades estranxeiras como Lisboa ou Turín.
 
 Estou familiarizado con tecnoloxías como:  
 + Administración de SO: GNU/Linux e Windows (Desktop e Server)
